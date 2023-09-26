@@ -1,0 +1,34 @@
+@extends('templates.layout')
+ @push( 'style')
+ @endpush
+ @section( 'content')
+   <section class="content">
+       Default box
+       <div class="card">
+         <div class= "card-header">
+           <h3 class= "card-title">Pembelian Barang/Stok Opname</h3>
+           <div class="card-tools">
+             <button type= "button" class= "btn btn-tool' data-card-widget= "collapse" title= "Collapse">
+               <i class="fas fa-minus"></i>
+             </button>
+             <button type= "button" class= "btn btn-tool data-card-widget= "remove" title= "Remove">
+               <i class="fas fa-times"></i>
+             </button>
+           </div>
+         </div>
+         <div class= "card-body">
+           Pembelian Barang/Stok Opname
+         </div>
+         <div class="card-footer">
+           Footer
+         </div>
+       </div>
+       
+     </section>
+ @endsection
+       @push('script')
+       <script>
+           </script>
+       @endpush
+
+
