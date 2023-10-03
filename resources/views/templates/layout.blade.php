@@ -288,7 +288,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ url('Faq') }}" class="nav-link">
+                <a href="{{ url('faq') }}" class="nav-link">
                   <i class="nav-icon fas fa-question-circle"></i>
                   <p>
                     Faq
