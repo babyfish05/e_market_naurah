@@ -15,7 +15,7 @@ use App\Http\Controllers\PembelianController;
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/profile', [HomeController::class, 'profile']);
 Route::get('/contact', [HomeController::class, 'contact']);
-Route::get('/Faq', [HomeController::class, 'Faq']);
+Route::get('/faq', [HomeController::class, 'faq']);
 Route::resource('/produk', ProductController::class);
 Route::resource('/barang', BarangController::class);
 Route::resource('/pemasok', PemasokController::class);

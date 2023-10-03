@@ -20,8 +20,8 @@ class HomeController extends Controller
     {
         return view('dashboard.contact');
     }
-    public function Faq()
+    public function faq()
     {
-        return view('dashboard.Faq');
+        return view('dashboard.faq');
     }
 }
