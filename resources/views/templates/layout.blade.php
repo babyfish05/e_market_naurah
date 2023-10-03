@@ -340,6 +340,43 @@
                   </p>
                 </a>
               </li>
+            </li>
+            <li class="nav-item">
+              <a href="{{ url('pemasok') }}" class="nav-link">
+                <i class="nav-icon fa-solid fa-user-tie"></i>
+                <p>
+                  User
+                </p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="{{ url('pelanggan') }}" class="nav-link">
+                <i class="nav-icon fa-solid fa-users"></i>
+                <p>
+                  Pelanggan
+                  
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{ url('pembelian') }}" class="nav-link">
+                <i class="nav-icon fa-solid fa-shop"></i>
+                <p>
+                  Pembelian
+                  
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{{ url('pembelian') }}" class="nav-link">
+                <i class="nav-icon fa-solid fa-store"></i>
+                <p>
+                  Penjualan
+                  
+                </p>
+              </a>
+            </li>
               
             </ul>
           </nav>
